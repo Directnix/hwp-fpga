@@ -1,0 +1,20 @@
+|my_first_component
+inputs[0] => outputs.IN0
+inputs[0] => outputs.IN0
+inputs[0] => outputs[0].DATAIN
+inputs[1] => outputs.IN1
+inputs[1] => outputs.IN1
+inputs[1] => outputs[1].DATAIN
+inputs[2] => outputs.IN1
+inputs[2] => outputs.IN1
+inputs[3] => outputs.IN1
+inputs[3] => outputs.IN1
+outputs[0] <= inputs[0].DB_MAX_OUTPUT_PORT_TYPE
+outputs[1] <= inputs[1].DB_MAX_OUTPUT_PORT_TYPE
+outputs[2] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[3] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[4] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[5] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+outputs[6] <= outputs.DB_MAX_OUTPUT_PORT_TYPE
+
+
