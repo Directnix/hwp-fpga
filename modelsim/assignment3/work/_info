@@ -7,38 +7,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/tools/Quartus/Projects/assignmet1
-Eassignment2
-Z0 w1568703571
+dD:/Tools/intelFPGA/18.1
+Ecalculator
+Z0 w1569093401
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dD:/tools/Quartus/Projects
-Z5 8D:\tools\Quartus\Projects\assignment2.vhd
-Z6 FD:\tools\Quartus\Projects\assignment2.vhd
+Z4 dD:/HR/HWP01/hwp-fpga/modelsim/assignment3
+Z5 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd
+Z6 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd
 l0
 L5
-V[Fo9B4B8HWjL>B[aaO]P;0
-!s100 8C6Ro^1QX5N3=kcW?7LCl2
+Vio]S^VJZEYfe7DKBUO^`O2
+!s100 Pgf?`5I1`ejcQMBhhBCM32
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1568703994
+Z8 !s110 1569093403
 !i10b 1
-Z9 !s108 1568703992.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\tools\Quartus\Projects\assignment2.vhd|
-Z11 !s107 D:\tools\Quartus\Projects\assignment2.vhd|
+Z9 !s108 1569093403.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd|
+Z11 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
-Adriver
+Acalc
 R1
 R2
 R3
-Z14 DEx4 work 11 assignment2 0 22 [Fo9B4B8HWjL>B[aaO]P;0
-l14
+Z14 DEx4 work 10 calculator 0 22 io]S^VJZEYfe7DKBUO^`O2
+l21
 L13
-VVli6ozzVoY[GdD[bjh@Dd2
-!s100 FNk[z?I@88C4R:3=?[S1=3
+V9ikDQFKdm=UR<S@M5Zg]H1
+!s100 Kg[]E0dHVk5:0Rg;PNH4T2
 R7
 32
 R8
@@ -49,77 +49,37 @@ R11
 !i113 1
 R12
 R13
-Aled_driver
-R1
-R2
-R3
-R14
-l14
-L13
-V:Y<oS]ZRdHNN<?n;2d5330
-!s100 LflCDU=]4FBnb1ZfCf6fl3
-R7
-32
-!s110 1568105619
-!i10b 1
-!s108 1568105618.000000
-R10
-R11
-!i113 1
-R12
-R13
-w1568105612
-Aleds
-R1
-R2
-R3
-R14
-l14
-L13
-VYin:bi06[P@?_9oVFcfB32
-!s100 zdVcDO`kHT_99SN=^Vbmm3
-R7
-32
-!s110 1568100349
-!i10b 1
-!s108 1568100349.000000
-R10
-R11
-!i113 1
-R12
-R13
-w1568100341
-Eassignment2_tb
-Z15 w1568703874
+Eseven_segment
+Z15 w1569086333
 R1
 R2
 R3
 R4
-Z16 8D:\tools\Quartus\Projects\assignment2_tb.vhd
-Z17 FD:\tools\Quartus\Projects\assignment2_tb.vhd
+Z16 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
+Z17 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
 l0
-L6
-V>EA=fom0X@1b:GCFeBe;10
-!s100 aQ<bQ;dZf=:4eK9lE8`4e0
+L5
+VN]=Baj@;10NOF>E><VIa41
+!s100 ]FjQR@EhN4FbO5Gf_GPJh2
 R7
 32
-Z18 !s110 1568703997
+Z18 !s110 1569089904
 !i10b 1
-Z19 !s108 1568703997.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\tools\Quartus\Projects\assignment2_tb.vhd|
-Z21 !s107 D:\tools\Quartus\Projects\assignment2_tb.vhd|
+Z19 !s108 1569089904.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
+Z21 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
 !i113 1
 R12
 R13
-Atestbench
+Adriver
 R1
 R2
 R3
-Z22 DEx4 work 14 assignment2_tb 0 22 >EA=fom0X@1b:GCFeBe;10
-l21
-L8
-Z23 Vhz`5IB[05S33V=D1na@Dn2
-Z24 !s100 2iC>ANYk^E47LhSS[Ke:E0
+DEx4 work 13 seven_segment 0 22 N]=Baj@;10NOF>E><VIa41
+l13
+L12
+VOdg^CagahE7eW1=Li3HYP3
+!s100 ;Q;@Oo:bHHfY_=IgRifIj1
 R7
 32
 R18
@@ -127,6 +87,47 @@ R18
 R19
 R20
 R21
+!i113 1
+R12
+R13
+Eseven_segment_tb
+Z22 w1569082891
+R1
+R2
+R3
+R4
+Z23 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
+Z24 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
+l0
+L5
+V0o3<@_HdaUPXNc[7]86ze2
+!s100 QJ9HQWYLd^T0;2h:l8beY3
+R7
+32
+R18
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
+Z26 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R1
+R2
+R3
+DEx4 work 16 seven_segment_tb 0 22 0o3<@_HdaUPXNc[7]86ze2
+l18
+L7
+Vf?2XKjmGz51FFSLV_VUf`0
+!s100 _ifEMU@C`CljNLg96[iQe1
+R7
+32
+R18
+!i10b 1
+R19
+R25
+R26
 !i113 1
 R12
 R13
