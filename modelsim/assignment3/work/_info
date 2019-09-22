@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/Tools/intelFPGA/18.1
 Ecalculator
-Z0 w1569093401
+Z0 w1569161139
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,27 +18,27 @@ Z5 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd
 Z6 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd
 l0
 L5
-Vio]S^VJZEYfe7DKBUO^`O2
+VF7:B73JjO@M=XlLa>PECa2
 !s100 Pgf?`5I1`ejcQMBhhBCM32
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1569093403
+Z8 !s110 1569161152
 !i10b 1
-Z9 !s108 1569093403.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd|
+Z9 !s108 1569161151.000000
+Z10 !s90 -reportprogress|300|-work|work|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd|
 Z11 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd|
 !i113 1
-Z12 o-work work -2002 -explicit
+Z12 o-work work
 Z13 tExplicit 1 CvgOpt 0
 Acalc
 R1
 R2
 R3
-Z14 DEx4 work 10 calculator 0 22 io]S^VJZEYfe7DKBUO^`O2
+DEx4 work 10 calculator 0 22 F7:B73JjO@M=XlLa>PECa2
 l21
 L13
-V9ikDQFKdm=UR<S@M5Zg]H1
-!s100 Kg[]E0dHVk5:0Rg;PNH4T2
+Vig10ZLgBh=G8aQbNR`XBQ3
+!s100 FzYMInhlZ^SO[l8XL>=QS1
 R7
 32
 R8
@@ -50,24 +50,24 @@ R11
 R12
 R13
 Eseven_segment
-Z15 w1569086333
+Z14 w1569146075
 R1
 R2
 R3
 R4
-Z16 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
-Z17 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
+Z15 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
+Z16 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
 l0
 L5
-VN]=Baj@;10NOF>E><VIa41
+VZmASnI^FYUIYklWNZU>1;1
 !s100 ]FjQR@EhN4FbO5Gf_GPJh2
 R7
 32
-Z18 !s110 1569089904
+R8
 !i10b 1
-Z19 !s108 1569089904.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
-Z21 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
+Z17 !s108 1569161152.000000
+Z18 !s90 -reportprogress|300|-work|work|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
+Z19 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd|
 !i113 1
 R12
 R13
@@ -75,40 +75,40 @@ Adriver
 R1
 R2
 R3
-DEx4 work 13 seven_segment 0 22 N]=Baj@;10NOF>E><VIa41
+DEx4 work 13 seven_segment 0 22 ZmASnI^FYUIYklWNZU>1;1
 l13
 L12
-VOdg^CagahE7eW1=Li3HYP3
+V]<^Z`nB]f`5KS@m3V9f]V3
 !s100 ;Q;@Oo:bHHfY_=IgRifIj1
 R7
 32
-R18
+R8
 !i10b 1
+R17
+R18
 R19
-R20
-R21
 !i113 1
 R12
 R13
 Eseven_segment_tb
-Z22 w1569082891
+R14
 R1
 R2
 R3
 R4
-Z23 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
-Z24 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
+Z20 8D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
+Z21 FD:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd
 l0
 L5
-V0o3<@_HdaUPXNc[7]86ze2
+V>k7Ebm[J4KMTWgUz5KBB92
 !s100 QJ9HQWYLd^T0;2h:l8beY3
 R7
 32
-R18
+R8
 !i10b 1
-R19
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
-Z26 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
+R17
+Z22 !s90 -reportprogress|300|-work|work|D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
+Z23 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment_tb.vhd|
 !i113 1
 R12
 R13
@@ -116,18 +116,18 @@ Atestbench
 R1
 R2
 R3
-DEx4 work 16 seven_segment_tb 0 22 0o3<@_HdaUPXNc[7]86ze2
+DEx4 work 16 seven_segment_tb 0 22 >k7Ebm[J4KMTWgUz5KBB92
 l18
 L7
-Vf?2XKjmGz51FFSLV_VUf`0
-!s100 _ifEMU@C`CljNLg96[iQe1
+V2f6jk<SCL;kR3KBWabS1I2
+Z24 !s100 _ifEMU@C`CljNLg96[iQe1
 R7
 32
-R18
+R8
 !i10b 1
-R19
-R25
-R26
+R17
+R22
+R23
 !i113 1
 R12
 R13

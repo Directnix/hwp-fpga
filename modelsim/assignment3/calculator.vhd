@@ -33,7 +33,7 @@ BEGIN
 		sum := to_integer(unsigned('0' & SW_1) + unsigned('0' & SW_2));
 		IF sum > 15 THEN
 			hex_a_1 <= "0001";
-			hex_a_0 <= std_logic_vector(to_unsigned(sum - 15, 4));
+			hex_a_0 <= std_logic_vector(to_unsigned(sum - 16, 4));
 		ELSE
 			hex_a_0 <= std_logic_vector(to_unsigned(sum, 4));	
 		END IF;	
