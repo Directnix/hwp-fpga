@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HEX_6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX_0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BTN_0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

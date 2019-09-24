@@ -11,8 +11,10 @@ end seven_segment;
 
 architecture driver of seven_segment is
 begin
+	
 	with to_integer(unsigned(inputs)) select
-	segments <= 	not "0111111" when 0,
+	segments <= 	
+			not "0111111" when 0,
 			not "0000110" when 1,
 			not "1011011" when 2,
 			not "1001111" when 3,
@@ -29,4 +31,5 @@ begin
 			not "1111001" when 14,
 			not "1110001" when 15,
 			not "0000000" when others;
+		
 end driver;
