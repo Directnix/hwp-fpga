@@ -7,6 +7,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity seven_segment_tb
 -- Compiling architecture testbench of seven_segment_tb
 
+} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity assignment3
+-- Compiling architecture calc of assignment3
+
 } {} {}} D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/assignment3/calculator_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -15,5 +24,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity calculator_tb
 -- Compiling architecture testbench of calculator_tb
+
+} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/assignment3/seven-segment.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity seven_segment
+-- Compiling architecture driver of seven_segment
 
 } {} {}}

@@ -9,24 +9,24 @@ z2
 cModel Technology
 dD:/HR/HWP01/hwp-fpga/modelsim/assignment3
 Eassignment4
-Z0 w1569315858
+Z0 w1569912852
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z4 dD:/HR/HWP01/hwp-fpga/modelsim/assignment4
-Z5 8D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4.vhd
-Z6 FD:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4.vhd
+Z5 8D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4.vhd
+Z6 FD:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4.vhd
 l0
 L6
-V;K:9WL]1<;RC]GVUo[47H2
-!s100 DFDPkFF0dnUQgm33cAl<R1
+VKJlFTEg7?eTA[N2z?CakW0
+!s100 AYCO5ZYBL9:lbRE5]:eN81
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1569315862
+Z8 !s110 1569912873
 !i10b 1
-Z9 !s108 1569315862.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4.vhd|
-Z11 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4.vhd|
+Z9 !s108 1569912873.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4.vhd|
+Z11 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -34,11 +34,11 @@ Adriver
 R1
 R2
 R3
-DEx4 work 11 assignment4 0 22 ;K:9WL]1<;RC]GVUo[47H2
-l22
-L14
-VKOR3Qk8kFQa8EGU@5`b_B2
-!s100 0k3_N_^7Z^Bo[k5;LR>o_2
+DEx4 work 11 assignment4 0 22 KJlFTEg7?eTA[N2z?CakW0
+l24
+L16
+Vk1R[N64LXg9ok23mPcol11
+!s100 UYAd2Bo5977oUDfAPGNSc3
 R7
 32
 R8
@@ -50,24 +50,24 @@ R11
 R12
 R13
 Eassignment4_tb
-Z14 w1569315610
+Z14 w1569912289
 R1
 R2
 R3
 R4
-Z15 8D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd
-Z16 FD:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd
+Z15 8D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4_tb.vhd
+Z16 FD:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4_tb.vhd
 l0
 L5
 Vg=>g[3diXXic7>zk3JeSQ2
 !s100 ]nl>UW<ge92>F:K<g2?_M2
 R7
 32
-R8
+Z17 !s110 1569912874
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd|
-Z18 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd|
+Z18 !s108 1569912874.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4_tb.vhd|
+Z20 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment4\assignment4_tb.vhd|
 !i113 1
 R12
 R13
@@ -75,18 +75,18 @@ Atestbench
 R1
 R2
 R3
-Z19 DEx4 work 14 assignment4_tb 0 22 g=>g[3diXXic7>zk3JeSQ2
+Z21 DEx4 work 14 assignment4_tb 0 22 g=>g[3diXXic7>zk3JeSQ2
 l21
 L8
-Z20 V@F;UC^OTA7a^BdEB6jQW22
-Z21 !s100 V^oNN@_KON27WjinhSk]Z2
+Z22 V[NMe8bHz@7n?F23IoZlk:0
+Z23 !s100 a4ofh@H;Y0@SHoVAL;WgV2
 R7
 32
-R8
-!i10b 1
-R9
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
 R12
 R13
@@ -96,8 +96,8 @@ R1
 R2
 R3
 R4
-R15
-R16
+8D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd
+FD:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd
 l0
 L5
 VQA=2IE^BSVah3=cfKkC>62
@@ -107,19 +107,19 @@ R7
 !s110 1569314573
 !i10b 1
 !s108 1569314573.000000
-R17
-R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd|
+!s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment4/assignment4_tb.vhd|
 !i113 1
 R12
 R13
 Eseven_segment
-Z22 w1569313492
+Z24 w1569313492
 R1
 R2
 R3
 R4
-Z23 8D:/HR/HWP01/hwp-fpga/modelsim/assignment4/seven-segment.vhd
-Z24 FD:/HR/HWP01/hwp-fpga/modelsim/assignment4/seven-segment.vhd
+Z25 8D:\HR\HWP01\hwp-fpga\modelsim\assignment4\seven-segment.vhd
+Z26 FD:\HR\HWP01\hwp-fpga\modelsim\assignment4\seven-segment.vhd
 l0
 L6
 V7h<DTPc??PeWj:zEzn74J0
@@ -128,9 +128,9 @@ R7
 32
 R8
 !i10b 1
-Z25 !s108 1569315861.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/assignment4/seven-segment.vhd|
-Z27 !s107 D:/HR/HWP01/hwp-fpga/modelsim/assignment4/seven-segment.vhd|
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment4\seven-segment.vhd|
+Z28 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment4\seven-segment.vhd|
 !i113 1
 R12
 R13
@@ -147,9 +147,9 @@ R7
 32
 R8
 !i10b 1
-R25
-R26
+R9
 R27
+R28
 !i113 1
 R12
 R13

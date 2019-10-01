@@ -28,7 +28,7 @@ BEGIN
 	PROCESS
 	BEGIN
 		CLK_tb <= '0';
-		FOR I IN 0 TO 30 LOOP
+		FOR I IN 0 TO 10000 LOOP
 			WAIT FOR 10 ns;
  			CLK_tb <= not CLK_tb;
 		END LOOP;

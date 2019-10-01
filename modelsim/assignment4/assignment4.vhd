@@ -4,6 +4,8 @@ USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all; 
 
 ENTITY assignment4 IS 
+	GENERIC (limit: INTEGER := 50_000_000); -- release
+	--GENERIC (limit: INTEGER := 5); -- test
 	PORT (
 		CLK: in std_logic;
 		LEDR_0: out std_logic;
@@ -21,20 +23,26 @@ end COMPONENT;
 SIGNAL hex : std_logic_vector(3 DOWNTO 0); 
 BEGIN
 ss: seven_segment PORT MAP (inputs => hex, segments => HEX_0);
-
 PROCESS(CLK)
-variable count : integer range 0 to 10 := 0;
+variable tick: natural range 0 to limit := 0;
+variable count : integer := 0;
+variable state: std_logic := '0';
 BEGIN
 	IF rising_edge(CLK) THEN
-		LEDR_0 <= '1';
-		count := count + 1;
-		IF count > 9 THEN
-			count := 0;
+		IF tick = limit THEN
+			tick := 0;
+			state := not state;
+			LEDR_0 <= state;
+			
+			IF count >= 9 THEN
+				count := 0;
+			ELSE
+				count := count + 1;			
+			END IF;
+
+			hex <= std_logic_vector(to_unsigned(count, 4));
 		END IF;
-		hex <= std_logic_vector(to_unsigned(count, 4));
-	END IF;
-	IF falling_edge(CLK) THEN
-		LEDR_0 <= '0';
+		tick := tick + 1;
 	END IF;
 END PROCESS;
 
