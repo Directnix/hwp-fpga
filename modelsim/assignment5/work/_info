@@ -1,0 +1,215 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/HR/HWP01/hwp-fpga/modelsim/assignment4
+Eassignment5
+Z0 w1570522083
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/HR/HWP01/hwp-fpga/modelsim/assignment5
+Z5 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd
+Z6 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd
+l0
+L11
+VnW:fP`EzH6I1<I]I60XJC0
+!s100 PJ?:Jk>[9FLaQTUhziIZU2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1570522203
+!i10b 1
+Z9 !s108 1570522203.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd|
+Z11 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Adriver
+R1
+R2
+R3
+DEx4 work 11 assignment5 0 22 nW:fP`EzH6I1<I]I60XJC0
+l53
+L21
+Vb9am3dFgo1>7cX7_g7>`Z0
+!s100 a:2W5jQ_F1i0Em@Xm=IQz1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eassignment5_tb
+Z14 w1570522198
+R1
+R2
+R3
+R4
+Z15 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd
+Z16 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd
+l0
+L5
+V6:>TIC9oKR4Ed50LMR3Ad1
+!s100 ]Th7ED>M@oD]`:78bY7IW2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
+Z18 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R1
+R2
+R3
+Z19 DEx4 work 14 assignment5_tb 0 22 6:>TIC9oKR4Ed50LMR3Ad1
+l22
+L8
+V0=Lf<E6<mNLEQj5jNJPeH3
+!s100 =b26=[VU[Nb@`9Abg568H0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ecounter
+Z20 w1570521727
+R1
+R2
+R3
+R4
+Z21 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
+Z22 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
+l0
+L5
+V=F?SS2Q`FO]OVU^f5dQfc1
+!s100 5Y:`IT@RH0F9@4eTMemLe3
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
+Z24 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
+!i113 1
+R12
+R13
+Adriver
+R1
+R2
+R3
+DEx4 work 7 counter 0 22 =F?SS2Q`FO]OVU^f5dQfc1
+l24
+L15
+V__`WSL?8:a^j:GeW?ZSG42
+!s100 KAaW33DRnBN:iKPzoAHm10
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Efled
+Z25 w1569936510
+R1
+R2
+R3
+R4
+Z26 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
+Z27 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
+l0
+L5
+VjbAZo[Babihf5:>zO0dd51
+!s100 j9=cNnNfHjML[Mn`K^NEb3
+R7
+32
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
+Z29 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
+!i113 1
+R12
+R13
+Adriver
+R1
+R2
+R3
+DEx4 work 4 fled 0 22 jbAZo[Babihf5:>zO0dd51
+l15
+L14
+VcGN8a;g=?I@5?UJVJhKBi1
+!s100 ^;6bDMmU`dH@SmXQHU_DE0
+R7
+32
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Essd
+Z30 w1570517161
+R1
+R2
+R3
+R4
+Z31 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
+Z32 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
+l0
+L5
+V]4zDU]A?BWgC65Y<EHZ8j2
+!s100 2X4VmNJB<eXYY=LjDnK=90
+R7
+32
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
+Z34 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
+!i113 1
+R12
+R13
+Adriver
+R1
+R2
+R3
+DEx4 work 3 ssd 0 22 ]4zDU]A?BWgC65Y<EHZ8j2
+l13
+L12
+VDcXKhZjZQ?K4Z9]oaC[>51
+!s100 ke?P8;8=TQk=WFI^_IeLJ3
+R7
+32
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
