@@ -3,8 +3,8 @@ USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all; 
  
 entity fled is 
-generic (sec: integer := 50_000_000);
---generic (sec: integer := 2); -- test
+--generic (sec: integer := 50_000_000);
+generic (sec: integer := 8); -- test
 port(
 	clk, oe, speed_select: in std_logic;
 	led: out std_logic
@@ -20,10 +20,6 @@ variable cnt: integer range 0 to 7 := 0;
 begin
 	if rising_edge(clk) then
 		if oe = '1' then
-			if tck = sec then
-				cnt := cnt + 1;
-				tck := 0;
-			end if;
 
 			if cnt >= 7 then
 				cnt := 0;
@@ -44,6 +40,12 @@ begin
 					led <= '1';
 				end if;
 			end if;
+			
+			if tck = (sec/8) then
+				cnt := cnt + 1;
+				tck := 0;
+			end if;
+			
 			tck := tck + 1;
 		else
 			led <= '0';

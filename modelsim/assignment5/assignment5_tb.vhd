@@ -36,14 +36,17 @@ begin
 		btn_bgn_tb <= '1';
 		btn_rst_tb <= '1';
 
-		for i in 0 to 200 loop
+		for i in 0 to 800 loop
 			WAIT FOR 10 ns;
  			clk_tb <= not clk_tb;
 			
-			-- press start
-			if i = 50 then btn_bgn_tb <= '0'; 
-			elsif i = 51 then btn_bgn_tb <= '0';
+			-- press button for 8 clk cycles, then debounce
+			if i > 50 and i < 60 then btn_bgn_tb <= '0'; 
 			else btn_bgn_tb <= '1'; end if;
+
+			-- reset
+			if i > 300 and i < 302 then btn_rst_tb <= '0'; 
+			else btn_rst_tb <= '1'; end if;
 
 		end loop;
 

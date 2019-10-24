@@ -1,5 +1,5 @@
 Flow report for assignment5
-Tue Oct 08 10:25:42 2019
+Tue Oct 15 08:36:00 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,25 +40,25 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Oct 08 10:25:42 2019       ;
+; Flow Status                     ; Successful - Tue Oct 15 08:35:52 2019       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; assignment5                                 ;
 ; Top-level Entity Name           ; assignment5                                 ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 94                                          ;
-; Total pins                      ; 18                                          ;
+; Logic utilization (in ALMs)     ; 75 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 124                                         ;
+; Total pins                      ; 18 / 457 ( 4 % )                            ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
 ; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0                                           ;
-; Total DLLs                      ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/08/2019 10:25:25 ;
+; Start date & time ; 10/15/2019 08:34:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; assignment5         ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 220295147849393.157052312512952        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 220295147849393.157112126309612        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --         ;
@@ -97,8 +97,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4864 MB             ; 00:00:25                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4860 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:52     ; 1.0                     ; 6610 MB             ; 00:01:09                           ;
+; Assembler            ; 00:00:13     ; 1.0                     ; 4838 MB             ; 00:00:10                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.1                     ; 5137 MB             ; 00:00:06                           ;
+; Total                ; 00:01:26     ; --                      ; --                  ; 00:01:49                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,6 +111,9 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; DESKTOP-KCQGQBM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-KCQGQBM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-KCQGQBM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-KCQGQBM  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -115,6 +121,9 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off assignment5 -c assignment5
+quartus_fit --read_settings_files=off --write_settings_files=off assignment5 -c assignment5
+quartus_asm --read_settings_files=off --write_settings_files=off assignment5 -c assignment5
+quartus_sta assignment5 -c assignment5
 
 
 

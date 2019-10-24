@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Tue Oct 08 10:25:42 2019
+Analysis & Synthesis Status : Successful - Tue Oct 15 08:34:40 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : assignment5
 Top-level Entity Name : assignment5
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 94
+Total registers : 95
 Total pins : 18
 Total virtual pins : 0
 Total block memory bits : 0

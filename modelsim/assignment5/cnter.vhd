@@ -4,7 +4,7 @@ USE ieee.numeric_std.all;
 
 entity counter is 
 --generic (sec: integer := 50_000_000);
-generic (sec: integer := 2); -- test
+generic (sec: integer := 8); -- test
 port(
 	clk, cnt: in std_logic;
 	ssd_counter: out std_logic_vector(6 downto 0);
@@ -42,7 +42,7 @@ begin
 			end if;
 			tick := tick + 1;
 		else
-			--done <= '0';
+			done <= '0';
 			tick:= 0;
 			count := 0;		
 			hex <= "----";

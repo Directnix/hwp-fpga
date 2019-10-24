@@ -64,11 +64,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "btn_rst",
+					"name" : "btn_bgn",
 					"strict" : false
 				},
 				{
-					"name" : "btn_bgn",
+					"name" : "btn_rst",
 					"strict" : false
 				}
 			]

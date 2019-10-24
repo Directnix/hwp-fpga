@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/HR/HWP01/hwp-fpga/modelsim/assignment4
 Eassignment5
-Z0 w1570522083
+Z0 w1571122070
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -17,14 +17,14 @@ Z4 dD:/HR/HWP01/hwp-fpga/modelsim/assignment5
 Z5 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd
 Z6 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd
 l0
-L11
-VnW:fP`EzH6I1<I]I60XJC0
-!s100 PJ?:Jk>[9FLaQTUhziIZU2
+L12
+VOz=>`]ZRmKi=knG]9aP9M1
+!s100 Mjf><;0O?G7KM^fYYc6D>2
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1570522203
+Z8 !s110 1571122085
 !i10b 1
-Z9 !s108 1570522203.000000
+Z9 !s108 1571122085.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd|
 Z11 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Adriver
 R1
 R2
 R3
-DEx4 work 11 assignment5 0 22 nW:fP`EzH6I1<I]I60XJC0
-l53
-L21
-Vb9am3dFgo1>7cX7_g7>`Z0
-!s100 a:2W5jQ_F1i0Em@Xm=IQz1
+DEx4 work 11 assignment5 0 22 Oz=>`]ZRmKi=knG]9aP9M1
+l55
+L22
+VV>5mdBLe3j`9kCYM[`IBO3
+!s100 CkZ1;kiz5XF_eU>5<a]3i2
 R7
 32
 R8
@@ -50,7 +50,7 @@ R11
 R12
 R13
 Eassignment5_tb
-Z14 w1570522198
+Z14 w1571053211
 R1
 R2
 R3
@@ -63,11 +63,11 @@ V6:>TIC9oKR4Ed50LMR3Ad1
 !s100 ]Th7ED>M@oD]`:78bY7IW2
 R7
 32
-R8
+Z17 !s110 1571122086
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
-Z18 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
+Z18 !s108 1571122086.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
+Z20 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\assignment5_tb.vhd|
 !i113 1
 R12
 R13
@@ -75,40 +75,40 @@ Atestbench
 R1
 R2
 R3
-Z19 DEx4 work 14 assignment5_tb 0 22 6:>TIC9oKR4Ed50LMR3Ad1
+Z21 DEx4 work 14 assignment5_tb 0 22 6:>TIC9oKR4Ed50LMR3Ad1
 l22
 L8
-V0=Lf<E6<mNLEQj5jNJPeH3
-!s100 =b26=[VU[Nb@`9Abg568H0
+Z22 VPX2@=H4l]1`_NM8Cze@[_1
+Z23 !s100 Lj_>5:MoZLhC?n_ZB?Hd00
 R7
 32
-R8
-!i10b 1
-R9
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
 R12
 R13
 Ecounter
-Z20 w1570521727
+Z24 w1571122081
 R1
 R2
 R3
 R4
-Z21 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
-Z22 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
+Z25 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
+Z26 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd
 l0
 L5
-V=F?SS2Q`FO]OVU^f5dQfc1
-!s100 5Y:`IT@RH0F9@4eTMemLe3
+Vbd]PQW[zY0mo^8C;lV5z02
+!s100 J7ZeB3zZKoGT4QES8YEjn0
 R7
 32
 R8
 !i10b 1
 R9
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
-Z24 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
+Z28 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\cnter.vhd|
 !i113 1
 R12
 R13
@@ -116,40 +116,40 @@ Adriver
 R1
 R2
 R3
-DEx4 work 7 counter 0 22 =F?SS2Q`FO]OVU^f5dQfc1
+DEx4 work 7 counter 0 22 bd]PQW[zY0mo^8C;lV5z02
 l24
 L15
-V__`WSL?8:a^j:GeW?ZSG42
-!s100 KAaW33DRnBN:iKPzoAHm10
+Vj^heCG?8g<k>L2mGOnPmQ0
+!s100 d@iaSSXV[U[;`GO70N;S=2
 R7
 32
 R8
 !i10b 1
 R9
-R23
-R24
+R27
+R28
 !i113 1
 R12
 R13
 Efled
-Z25 w1569936510
+Z29 w1571122057
 R1
 R2
 R3
 R4
-Z26 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
-Z27 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
+Z30 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
+Z31 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd
 l0
 L5
-VjbAZo[Babihf5:>zO0dd51
-!s100 j9=cNnNfHjML[Mn`K^NEb3
+VDOFXl6NTj_0HIaZjS;HD[0
+!s100 Q`[1f@4>Bcb413m2=<Yn_1
 R7
 32
-R8
+R17
 !i10b 1
-R9
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
-Z29 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
+R18
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
+Z33 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\fled.vhd|
 !i113 1
 R12
 R13
@@ -157,29 +157,29 @@ Adriver
 R1
 R2
 R3
-DEx4 work 4 fled 0 22 jbAZo[Babihf5:>zO0dd51
+DEx4 work 4 fled 0 22 DOFXl6NTj_0HIaZjS;HD[0
 l15
 L14
-VcGN8a;g=?I@5?UJVJhKBi1
-!s100 ^;6bDMmU`dH@SmXQHU_DE0
+V8D_oI=lEzMV7F2<zKB6kJ3
+!s100 2^=FB0]>Q>a`78NbYkMnX3
 R7
 32
-R8
+R17
 !i10b 1
-R9
-R28
-R29
+R18
+R32
+R33
 !i113 1
 R12
 R13
 Essd
-Z30 w1570517161
+Z34 w1570517161
 R1
 R2
 R3
 R4
-Z31 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
-Z32 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
+Z35 8D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
+Z36 FD:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd
 l0
 L5
 V]4zDU]A?BWgC65Y<EHZ8j2
@@ -189,8 +189,8 @@ R7
 R8
 !i10b 1
 R9
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
-Z34 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
+Z38 !s107 D:\HR\HWP01\hwp-fpga\modelsim\assignment5\ssd.vhd|
 !i113 1
 R12
 R13
@@ -208,8 +208,8 @@ R7
 R8
 !i10b 1
 R9
-R33
-R34
+R37
+R38
 !i113 1
 R12
 R13
