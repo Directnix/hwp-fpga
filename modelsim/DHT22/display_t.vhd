@@ -34,7 +34,10 @@ begin
 		display_t_in <= 394;
 
 		WAIT FOR 10 ns;
-		display_t_in <= 173;
+		display_t_in <= 73;
+
+		WAIT FOR 10 ns;
+		display_t_in <= 8;
 
  		report "Test completed.";
 		wait;
