@@ -8,37 +8,37 @@ z2
 !i10f 100
 cModel Technology
 dD:/HR/HWP01/hwp-fpga/modelsim/assignment5
-Edht22
-Z0 w1572010882
+Edht11
+Z0 w1572354244
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z4 dD:/HR/HWP01/hwp-fpga/modelsim/DHT22
-Z5 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22.vhd
-Z6 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22.vhd
+Z5 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22-l.vhd
+Z6 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22-l.vhd
 l0
-L6
-VFl<2CO2>Y<jK56dSg4E=N0
-!s100 ZWDJ7_KJ_MeO9JMgUJLDd1
+L33
+V?DL`@WNS[^cE`A`J1zdWm3
+!s100 PSOgfXNZFV`1?][i<9lG=3
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1572010886
+Z8 !s110 1572355781
 !i10b 1
-Z9 !s108 1572010886.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22.vhd|
-Z11 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22.vhd|
+Z9 !s108 1572355781.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22-l.vhd|
+Z11 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht22-l.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
-Adriver
+Abehavioral
 R1
 R2
 R3
-DEx4 work 5 dht22 0 22 Fl<2CO2>Y<jK56dSg4E=N0
-l40
-L16
-VljD[FLnzdHO9:8gGiENWD3
-!s100 6H8b8BKG1]QY72_BDCQ<;0
+DEx4 work 5 dht11 0 22 ?DL`@WNS[^cE`A`J1zdWm3
+l62
+L46
+Va1fioCh]K0ja6UJQjIUEj3
+!s100 HQWFP`ZbH;RD`z^YK28b@2
 R7
 32
 R8
@@ -49,25 +49,147 @@ R11
 !i113 1
 R12
 R13
-Edisplay
-Z14 w1571996878
+Edht2
+Z14 w1572361389
 R1
 R2
 R3
 R4
-Z15 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\display.vhd
-Z16 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\display.vhd
+R5
+R6
+l0
+L5
+VZL1c33M>kV=[iN_84]4ie3
+!s100 1QC5a<lGl^h>AS1[Vf6`R0
+R7
+32
+Z15 !s110 1572361394
+!i10b 1
+Z16 !s108 1572361394.000000
+R10
+R11
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+Z17 DEx4 work 4 dht2 0 22 ZL1c33M>kV=[iN_84]4ie3
+l38
+L18
+VInJ@UVmjIVWDRA]8;aiTe3
+!s100 >5WkVzmS99nk>2:L^Rm?X1
+R7
+32
+R15
+!i10b 1
+R16
+R10
+R11
+!i113 1
+R12
+R13
+Edht22
+Z18 w1572342621
+R1
+R2
+R3
+R4
+Z19 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22.vhd
+Z20 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22.vhd
+l0
+L6
+Va1zTmSRDTPL6kcD^zUPYM1
+!s100 7K?4F<T49]GEnc92nlUP[2
+R7
+32
+R15
+!i10b 1
+Z21 !s108 1572361393.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22.vhd|
+Z23 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22.vhd|
+!i113 1
+R12
+R13
+Adriver
+R1
+R2
+R3
+DEx4 work 5 dht22 0 22 a1zTmSRDTPL6kcD^zUPYM1
+l48
+L17
+V4W15O4fb7A;m_5>I7zL<G3
+!s100 KVUJJB[0AdKgFXzd<0_BB3
+R7
+32
+R15
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R12
+R13
+Edht2_tb
+Z24 w1572360801
+R4
+Z25 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht2_tb.vhd
+Z26 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht2_tb.vhd
+l0
+L2
+Vcz0>60cH_W^G1hYlWUC7?2
+!s100 R>]QG130YNXZ7B7lRB4LT1
+R7
+32
+R15
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht2_tb.vhd|
+Z28 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht2_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R17
+R1
+Z29 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R2
+R3
+Z30 DEx4 work 7 dht2_tb 0 22 cz0>60cH_W^G1hYlWUC7?2
+l54
+L5
+Z31 V3ZWM6cePMz>02m>Kc8BM<3
+Z32 !s100 2EPjGGJ7;Ob5N5hNQ819z2
+R7
+32
+R15
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R12
+R13
+Edisplay
+Z33 w1572355252
+R1
+R2
+R3
+R4
+Z34 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd
+Z35 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd
 l0
 L5
 VT>GD9G_aRG43]60U<JEAQ0
 !s100 9]=<1B:=aJL`<JR]KWlE30
 R7
 32
-R8
+R15
 !i10b 1
-R9
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\display.vhd|
-Z18 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\display.vhd|
+R16
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd|
+Z37 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd|
 !i113 1
 R12
 R13
@@ -82,33 +204,33 @@ VO5X?U]jCzOj=POfH7BMSQ3
 !s100 WnefLUhXH6ZF]]kC:o2`82
 R7
 32
-R8
+R15
 !i10b 1
-R9
-R17
-R18
+R16
+R36
+R37
 !i113 1
 R12
 R13
 Edisplay_t
-Z19 w1571928395
+Z38 w1571928395
 R1
 R2
 R3
 R4
-Z20 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd
-Z21 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd
+Z39 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd
+Z40 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd
 l0
 L5
 ViLl14kjd:T6;=Ako1TWCB0
 !s100 Vk0LHfS]k72OmiEOL?eOQ1
 R7
 32
-R8
+R15
 !i10b 1
-R9
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd|
-Z23 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd|
+R16
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd|
+Z42 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd|
 !i113 1
 R12
 R13
@@ -116,40 +238,40 @@ Atestbench
 R1
 R2
 R3
-Z24 DEx4 work 9 display_t 0 22 iLl14kjd:T6;=Ako1TWCB0
+DEx4 work 9 display_t 0 22 iLl14kjd:T6;=Ako1TWCB0
 l20
 L8
-Z25 Vddk?;X9_@g20UhiC?Qe<b1
-Z26 !s100 E]Iz9O=BYn>0F3d8>ab0z2
+Vddk?;X9_@g20UhiC?Qe<b1
+!s100 E]Iz9O=BYn>0F3d8>ab0z2
 R7
 32
-R8
+R15
 !i10b 1
-R9
-R22
-R23
+R16
+R41
+R42
 !i113 1
 R12
 R13
 Efsm
-Z27 w1572010521
+Z43 w1572360270
 R1
 R2
 R3
 R4
-Z28 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd
-Z29 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd
+Z44 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd
+Z45 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd
 l0
 L11
-VLg`D6_MS46fZnQz1A6E>80
-!s100 l`5KG6RhB@F_o>AANJTLa2
+Va@OQKd2;BmZZ2:<G6N`]=0
+!s100 Ic]4bZzbnn??c[789Vj3S0
 R7
 32
-R8
+R15
 !i10b 1
-R9
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd|
-Z31 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd|
+R16
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd|
+Z47 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm.vhd|
 !i113 1
 R12
 R13
@@ -157,40 +279,40 @@ Adriver
 R1
 R2
 R3
-DEx4 work 3 fsm 0 22 Lg`D6_MS46fZnQz1A6E>80
-l48
+DEx4 work 3 fsm 0 22 a@OQKd2;BmZZ2:<G6N`]=0
+l71
 L20
-V<E?N5e^T>C04QDoFVn=Y;2
-!s100 ciA[_MR@;`zFcW<_gQ8z?3
+V?=b^FcI]SK@EIG48<=cAn1
+!s100 JMzlT8dTTI2:m:zF<iAIM0
 R7
 32
-R8
+R15
 !i10b 1
-R9
-R30
-R31
+R16
+R46
+R47
 !i113 1
 R12
 R13
 Efsm_t
-Z32 w1572010852
+Z48 w1572356240
 R1
 R2
 R3
 R4
-Z33 8D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm_t.vhd
-Z34 FD:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm_t.vhd
+Z49 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd
+Z50 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd
 l0
 L5
 VhNT>H<aZhHi@RBe<E[DW@2
 !s100 JI<::W9`9G:?VPIomUiKS2
 R7
 32
-R8
+R15
 !i10b 1
-R9
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm_t.vhd|
-Z36 !s107 D:\HR\HWP01\hwp-fpga\modelsim\DHT22\fsm_t.vhd|
+R16
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd|
+Z52 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd|
 !i113 1
 R12
 R13
@@ -201,37 +323,37 @@ R3
 DEx4 work 5 fsm_t 0 22 hNT>H<aZhHi@RBe<E[DW@2
 l25
 L8
-V;c<dm=HEQMS6UEANfP5Pe2
-!s100 >Z]2E9go>U;zL27^BM:Qc3
+VU<;Cg7df6HgYU6lSi6z;G0
+!s100 SV[7z`k8WeS@jf5h_1TBa0
 R7
 32
-R8
+R15
 !i10b 1
-R9
-R35
-R36
+R16
+R51
+R52
 !i113 1
 R12
 R13
 Essd
-Z37 w1571914467
+Z53 w1571914467
 R1
 R2
 R3
 R4
-Z38 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
-Z39 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
+Z54 8D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
+Z55 FD:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
 l0
 L5
 VTH=K`L_B3EcJiUR=]z>EJ1
 !s100 m>MCDQBFRDJDmf5[94=I<1
 R7
 32
-R8
+Z56 !s110 1572361393
 !i10b 1
-R9
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd|
-Z41 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd|
+R21
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd|
+Z58 !s107 D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd|
 !i113 1
 R12
 R13
@@ -246,11 +368,11 @@ VNhR1j;HNSKFc=[9BX5RTg2
 !s100 _jmCoh_cnf0V95j62Mo0P1
 R7
 32
-R8
+R56
 !i10b 1
-R9
-R40
-R41
+R21
+R57
+R58
 !i113 1
 R12
 R13

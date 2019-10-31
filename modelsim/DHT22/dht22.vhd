@@ -9,11 +9,19 @@ port(
 	dht22_sda: inout std_logic;
 	dht22_clk, dht22_reading: in std_logic;
 	dht22_done: out std_logic;
-	dht22_hum_result, dht22_temp_result: out integer
+	dht22_hum_result, dht22_temp_result: out integer;
+	dht22_state_ssd: out std_logic_vector(6 downto 0)
 );
 end dht22;
 
 architecture driver of dht22 is
+
+component ssd is
+port(
+	ssd_in: in std_logic_vector(3 downto 0);
+	ssd_seg: out std_logic_vector(6 downto 0)
+);
+end component;
 
 constant DELAY_26_US: positive := 26 * 10**3 / CLK_NS + 1;
 constant DELAY_30_US: positive := 30 * 10**3 / CLK_NS + 1;
@@ -39,6 +47,11 @@ signal bits : std_logic_vector(39 downto 0);
 
 begin
 
+state_ssd: ssd port map (
+	ssd_in => dht22_cur_state,
+	ssd_seg => dht22_state_ssd
+);
+
 -- PROCESS THAT SWITCHES BETWEEN STATES
 process (dht22_clk)
 begin
@@ -62,8 +75,6 @@ begin
 			count_read <= 0;
 			count_end <= 0;
 
-			dht22_done <= '0';
-
 			if dht22_reading = '0' then
 				ready <= '1';
 			end if;
@@ -74,6 +85,7 @@ begin
 				dht22_next_state <= state_idle;
 			end if;
 		when state_start =>
+			dht22_done <= '0';
 			if count_write = 0 then
 				dht22_sda <= '0';		 		-- Pull down for start
 			end if;
@@ -174,7 +186,7 @@ begin
 			dht22_done <= '1';
 
 			ready <= '0';
-			dht22_next_state <= state_idle;
+			--dht22_next_state <= state_idle;
 
 		when others => dht22_next_state <= state_idle;
 	end case;

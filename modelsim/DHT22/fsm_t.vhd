@@ -15,7 +15,7 @@ port(
 );
 end component;
 
-constant clk_period : time := 10 ns;
+constant clk_period : time := 20 ns;
 
 signal fsm_sda_t:  std_logic;
 signal fsm_clk_t:  std_logic := '0';
