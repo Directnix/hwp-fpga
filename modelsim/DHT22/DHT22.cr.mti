@@ -1,11 +1,11 @@
-D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
+D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity ssd
--- Compiling architecture driver of ssd
+-- Compiling entity fsm
+-- Compiling architecture driver of fsm
 
 } {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -16,7 +16,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity display
 -- Compiling architecture driver of display
 
-} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\HR\HWP01\hwp-fpga\modelsim\DHT22\dht2_tb.vhd}
+} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/ssd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ssd
+-- Compiling architecture driver of ssd
+
+} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht2_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht2_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Compiling entity dht2_tb
@@ -36,6 +45,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity dht22
 -- Compiling architecture driver of dht22
 
+} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22-l.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/dht22-l.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dht2
+-- Compiling architecture rtl of dht2
+
 } {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/display_t.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -44,14 +62,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity display_t
 -- Compiling architecture testbench of display_t
-
-} {} {}} D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/HR/HWP01/hwp-fpga/modelsim/DHT22/fsm_t.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity fsm_t
--- Compiling architecture testbench of fsm_t
 
 } {} {}}

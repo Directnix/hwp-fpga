@@ -10,8 +10,7 @@ entity dht2 is
         clk,rst : in std_logic ;
         singer_bus: inout std_logic; 
         dataout: out std_logic_vector(data_width-1 downto 0);
-        tick_done: out std_logic;
-	dht2_hum_result, dht2_temp_result: out integer
+        tick_done: out std_logic
         ); 
 end entity;
 
@@ -34,7 +33,6 @@ architecture rtl of dht2 is
     signal number_bit : natural range 0 to data_width; 
     signal oe: std_logic;  -- help to set input and output port.
 
-	signal hum_out, temp_out : integer;
 begin
     input_syncronizer : process(clk) begin
         if rising_edge(clk) then
@@ -103,19 +101,10 @@ begin
                     if delay_counter = 0 then 
                         delay_counter <= max_delay; 
                         state <= reset;    
-                    else 
-								hum_out <= to_integer(unsigned(data_out(39 downto 24)));
-								temp_out <= to_integer(unsigned(data_out(23 downto 8)));
-
-								report "hum " & integer'image(hum_out);
-
-								dht2_hum_result <= hum_out;
-								dht2_temp_result <= temp_out;
-								
+                    else 							
                         dataout <= data_out;
-								tick_done <= '1';
-                        delay_counter <= delay_counter - 1; 				
-								
+			tick_done <= '1';
+                        delay_counter <= delay_counter - 1; 											
                     end if;
             end case;
             if rst = '1' then 
@@ -128,6 +117,4 @@ begin
     end process regis_state; 
     --tristate iobuffer
     singer_bus <= '0' when oe ='1' else 'Z';
-	--dht2_hum_result <= hum_out;
-	--dht2_temp_result <= temp_out;
 end architecture;

@@ -49,8 +49,6 @@ architecture behavior of dht2_tb is
     constant test_data_length : positive := 40;
     constant test_data : std_logic_vector(test_data_length-1 downto 0) := random_slv(test_data_length);
     signal data_out : std_logic_vector(test_data_length-1 downto 0);
-	signal start : std_logic := '1';
-	signal dht2_hum_result_out, dht2_temp_result_out: integer;
 begin
     -- instantiate the unit under test (uut)
     uut: entity work.dht2 -- use entity instantiation: no component declaration needed
@@ -62,9 +60,7 @@ begin
             rst => rst,
             singer_bus => singer_bus,
             dataout => data_out,
-            tick_done => tick_done,
-	    dht2_hum_result => dht2_hum_result_out, 
-            dht2_temp_result => dht2_temp_result_out
+            tick_done => tick_done
             );
 
     -- clock stimuli
@@ -90,10 +86,7 @@ begin
 
         -- procedure bus_init initializes the slave device. (copied this from your code)
         procedure bus_init is begin
-    --      singer_bus <= 'Z'; -- initial 
             wait for 6 ms;  
-            -- singer_bus <= '0'; -- master send 
-            -- wait for 1 ms;
             singer_bus <= 'Z'; -- wait response for slave 
             wait for 40 us; 
             singer_bus <= '0'; -- slave pull low  
@@ -131,10 +124,6 @@ begin
                 end case;
                 singer_bus <= '0';
             end loop;
-            -- next is VHDL-2008 (else use ieee.std_logic_textio.all;)
-            report "transmitted: "&to_string(data);
-	    report "hum: "  & integer'image(dht2_hum_result_out);
-             report "temp: "  & integer'image(dht2_temp_result_out);
         end procedure;
     begin       
         wait until rst = '0';
@@ -146,11 +135,9 @@ begin
         singer_bus <= 'Z'; -- release bus
 
         report "received: "&to_string(data_out);
-        -- test correctness of output
         assert data_out = test_data
             report "data output does not match send data"
             severity error;
-
         report "end of simulation" severity failure;
     end process;
 end architecture;
